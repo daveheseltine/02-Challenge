@@ -5,41 +5,152 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>David Heseltine // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+    <header>
+        <h1 id="header" class="light-box">David Heseltine</h1>
+        
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <a href="placeholder" class="text-orange">Resume</a>
+    </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+    <section class="hero-banner">
+        <img src="./assets/images/02-hero-bg.jpg"/>
+        <div class="hero-banner-overlay"></div>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+        <div class="hero-floatBox">
+            <img src="./assets/images/hero.jpg" class="hero-floatBox-image"/>
+        </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+    <main>
+        <section class="page-section" id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+            </article>
+                <p class="paragraph-box">
+                    Hi there!
+                    <br>
+                    <br>
+                    So you found this page, huh?
+                    <br>
+                    <br>
+                    Either you are grading it or found it by astronomical odds!
+                    Either way pull up a chair by the warm winter fire and let me spin yer a tale of how I became a web developer.
+                    You see, I started off as an engineer - but for my dream job of creating engineering software I first need to learn how to code!
+                    <br>
+                    <br>
+                    We engineers can't bust piston heads like we used to, but we have our ways.
+                    One trick is to tell them stories that don't go anywhere, like the time I caught the ferry over to Sunderland?
+                    I needed a new heel for my shoe so I decided to go to Macamland, which is what they called Sunderland in those days.
+                    So I tied an onion to my belt - which was the style at the time - now, to take the ferry cost a pound and in those days pound coins had pictures of bumblebees on them.
+                    "Give me five bees for a Fiver" you'd say. Now where were we... Oh, yeah.
+                    The important thing was that I had an onion on my belt, which was the style at the time.
+                    They didn't have white onions because of the rail strikes. The only thing you could get was those big yellow ones.
+                </p>
+            </article>
+        </section>
+
+        <section class="page-section" id="work">
+            <div class="heading">
+                <h2>Work</h2>
+            </div>
+
+            <div class="work-flexBox">
+                <div id="work-flexBox-featured-nest" class="work-flexBox-nest">
+                    <article id="surf-report" class="work-card">
+                        <img src="./assets/images/02-portfolio-1.jpg"/>
+                        <div class="work-card-overlay"></div>
+
+                        <div class="work-floatBox light-box">
+                            <h3>Surf Report</h3>
+                            <p>(Deployed Week 1 Challenge)</p>
+                        </div>
+
+                        <a href="https://github.com/lulose/01-Challenge" target="_blank" class="work-card-link"></a>
+                    </article>
+                </div>
+
+                <div class="work-flexBox-nest">
+                    <article id="led-wall" class="work-card">
+                        <img src="./assets/images/02-portfolio-2.jpg"/>
+                        <div class="work-card-overlay"></div>
+
+                        <div class="work-floatBox light-box">
+                            <h3>LED Wall</h3>
+                            <p>(Deployed Week 1 Challenge)</p>
+                        </div>
+
+                        <a href="https://github.com/lulose/01-Challenge" target="_blank" class="work-card-link"></a>
+                    </article>
+                </div>
+
+                <div class="work-flexBox-nest">
+                    <article id="calculator" class="work-card">
+                        <img src="./assets/images/02-portfolio-3.jpg"/>
+                        <div class="work-card-overlay"></div>
+
+                        <div class="work-floatBox light-box">
+                            <h3>Calculator</h3>
+                            <p>(Deployed Week 1 Challenge)</p>
+                        </div>
+
+                        <a href="https://github.com/lulose/01-Challenge" target="_blank" class="work-card-link"></a>
+                    </article>
+                </div>
+
+                <div class="work-flexBox-nest">
+                    <article id="pastel-puzzles" class="work-card">
+                        <img src="./assets/images/02-portfolio-4.jpg"/>
+                        <div class="work-card-overlay"></div>
+
+                        <div class="work-floatBox light-box">
+                            <h3>Pastel Puzzles</h3>
+                            <p>(Deployed Week 1 Challenge)</p>
+                        </div>
+
+                        <a href="https://github.com/lulose/01-Challenge" target="_blank" class="work-card-link"></a>
+                    </article>
+                </div>
+
+                <div class="work-flexBox-nest">
+                    <article id="run-buddy" class="work-card">
+                        <img src="./assets/images/02-run-buddy.jpg"/>
+                        <div class="work-card-overlay"></div>
+
+                        <div class="work-floatBox light-box">
+                            <h3>Run Buddy</h3>
+                            <p>(Deployed Week 1 Challenge)</p>
+                        </div>
+                        
+                        <a href="https://github.com/lulose/01-Challenge" target="_blank" class="work-card-link"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="contact">
+            <div class="heading">
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="contact-flexBox">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i>placeholder-link (YouTube)</i></a>
+                <p>0123 456 78901</p>
+                <a href="https://www.youtube.com/watch?v=e2qG5uwDCW4" target="_blank"><i>placeholder-link (YouTube)</i></a>
+            </nav>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 
 </html>
