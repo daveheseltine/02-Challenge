@@ -231,3 +231,49 @@ p {
     text-decoration: underline;
     color: var(--dark);
 }
+
+/* # Media Queries */
+@media screen and (max-width: 1200px) {
+    .hero-banner {
+        height: 50vw;
+    }
+
+    .hero-floatBox {
+        width: 40vw;
+    }
+
+    .page-section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .work-flexBox-nest {
+        width: 100%;
+    }
+
+    .contact-flexBox {
+        flex-direction: column;
+    }
+
+    .contact-flexBox a, .contact-flexBox p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .page-section h2 {
+        width: 120px;
+        border-right: 5px solid var(--dark);
+        text-align: right;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
